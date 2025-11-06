@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* estilos del inicio */
+
+body{
+    background-color: #D56718;
+    color: #ffffff;
+    font-family: montserrat;
+    
+}
+
+.banner-bloque{
+    display: flex;
+    justify-content: center;
+}
+
+header img .banner {
+    max-width: 150px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* 
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    background-color: #f79d5d;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #511231;
+    font-size: large;
+    display: block;
+} */
+
+/*estilos index */
+
+.carrousel{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+
+}
+
+.img-carrousel{
+    border-radius: 10px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.informacion_importante {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacion_importante h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.informacion_importante p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.info1 img {
+    margin: 10%;
+}
+
+
+.info1{
+    display: grid;
+    grid-template-columns:45% 45%;
+    column-gap: 10px;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.info2{
+    display: grid;
+    grid-template-rows: 45% 45%;
+    justify-items: center;
+    padding-bottom: 10%;
+    
+
+}
+
+.info2 img {
+    margin: 5%;
+}
+
+.info1-1{
+    border-radius: 10%;
+    border: solid #f79d5d ;
+}
+
+/*estilos servicios */
+
+.container-servicios{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    column-gap: 10%;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+
+.container-servicios div img {
+    padding: 5%;
+}
+
+
+/*estilos proyectos */
+
+.container-proyectos {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    column-gap: 5%;
+    justify-content: center;
+    padding: 5%;
+    text-align: center;
+}
+
+
+
+figure img{
+    max-width: 900px;
+
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+
+/* estilos de presupuestos  */
+
+.presupuestos{
+    margin: 5%;
+}
+
+#titulo-presupuestos{
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.contenedor-presupuestos{
+    display: block;
+    background-color: #ffffff7f;
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    margin: 5%;
+    padding: 2%;
+}
+
+#pres {
+    display: flex;
+    justify-content: center;
+}
+
+/*estilos de formulario*/
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%px;
+    
+}
+
+#contact{
+    margin-top: 2%;
+}
+
+.contenedor-form{
+    background-color: #ffffff7f;
+    width: 40%;
+    height: auto;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+
+
+/* estilos del footer */
+
+footer{
+    background-color: #511231;
+    padding: 10px;
+    
+
+}
+
+.contenido-footer{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding: 5%;
+}
+
