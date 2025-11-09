@@ -134,9 +134,10 @@ h1 {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
-    
 
 }
+
+
 
 .container-servicios div img {
     padding: 5%;
@@ -145,14 +146,7 @@ h1 {
 
 /*estilos proyectos */
 
-/* .container-proyectos {
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    column-gap: 5%;
-    justify-content: center;
-    padding: 5%;
-    text-align: center;
-} */
+
 
 .card-img-top{
     height: 450px;
@@ -169,10 +163,6 @@ h1 {
 .card:hover {
     transform: scale(1.1);
 }
-
-
-
-
 
 
 
