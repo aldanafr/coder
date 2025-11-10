@@ -21,7 +21,9 @@ body{
 }
 
 header img .banner {
-    max-width: 150px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .container-fluid{
@@ -30,28 +32,6 @@ header img .banner {
 
 }
 
-/* 
-.navbar ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    justify-content: center;
-    background-color: #f79d5d;
-}
-
-.navbar li {
-    margin: 0 15px;
-}
-
-.navbar a {
-    text-decoration: none;
-    padding: 15px 20px;
-    color: #511231;
-    font-size: large;
-    display: block;
-} */
 
 /*estilos index */
 
@@ -89,59 +69,32 @@ h1 {
     text-align: center;
 }
 
-.info1 img {
-    margin: 10%;
+.img_ceo{
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
-.info1{
-    display: grid;
-    grid-template-columns:45% 45%;
-    column-gap: 10px;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
 
-.info2{
-    display: grid;
-    grid-template-rows: 45% 45%;
-    justify-items: center;
-    padding-bottom: 10%;
-    
 
-}
-
-.info2 img {
-    margin: 5%;
-}
-
-.info1-1{
-    border-radius: 10%;
-    border: solid #f79d5d ;
-}
 
 /*estilos servicios */
 
-.container-servicios{
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    column-gap: 10%;
-    justify-content: center;
-    padding: 5%;
+.servicio-item{
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    display: block;
+    margin: 0 auto 1rem auto;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
 
 }
 
 
 
-.container-servicios div img {
-    padding: 5%;
-}
 
 
 /*estilos proyectos */
