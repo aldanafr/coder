@@ -6,13 +6,22 @@
 
 
 
+
+
 /* estilos del inicio */
 
 body{
     background-color: #D56718;
     color: #ffffff;
     font-family: montserrat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     
+}
+
+main {
+    flex: 1;
 }
 
 .banner-bloque{
@@ -78,9 +87,6 @@ h1 {
 }
 
 
-
-
-
 /*estilos servicios */
 
 .servicio-item{
@@ -94,12 +100,7 @@ h1 {
 }
 
 
-
-
-
 /*estilos proyectos */
-
-
 
 .card-img-top{
     height: 450px;
@@ -116,7 +117,6 @@ h1 {
 .card:hover {
     transform: scale(1.1);
 }
-
 
 
 /* estilos de presupuestos  */
@@ -181,9 +181,14 @@ h1 {
 footer{
     background-color: #511231;
     padding: 10px;
-    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
 
 }
+
+
 
 .contenido-footer{
     text-align: center;
@@ -194,3 +199,76 @@ footer{
     padding: 5%;
 }
 
+/*Media queries para mobile PROYECTOS Y PRESUPUESTOS */
+
+
+@media (max-width: 768px) {
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+
+.contenedor-presupuestos {
+        width: 90%;
+        margin: 5% auto;
+        padding: 5%;
+    }
+
+    #pres {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presupuestos h2{
+        font-size: 1.2rem;
+    }
+
+    .presupuestos p {
+        font-size: 1rem;
+    }
+
+    .contenedor-form{
+    width: 90%;
+    margin: 5% auto;
+    padding: 5%;
+}
+
+    .formulario{
+    flex-direction: column;
+    align-items: center;
+}
+
+    input,textarea{
+    width: 100%;
+}
+
+#form {
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.contenido-footer {
+    flex-direction: column; 
+    gap: 8px; 
+    padding: 10px;
+}
+
+.contenido-footer li {
+    font-size: 0.9rem; 
+}
+}
+
+    @media (min-width: 1200px) {
+    .contenedor-presupuestos {
+    width: 50%;
+    margin: 3% auto;
+    }
+
+    .presupuestos {
+    margin: 3% auto;
+    }
+
+}
