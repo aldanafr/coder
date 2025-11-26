@@ -1,0 +1,72 @@
+
+
+@media (max-width: 768px) {
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+
+.contenedor-presupuestos {
+        width: 90%;
+        margin: 5% auto;
+        padding: 5%;
+    }
+
+    #pres {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presupuestos h2{
+        font-size: 1.2rem;
+    }
+
+    .presupuestos p {
+        font-size: 1rem;
+    }
+
+    .contenedor-form{
+    width: 90%;
+    margin: 5% auto;
+    padding: 5%;
+}
+
+    .formulario{
+    flex-direction: column;
+    align-items: center;
+}
+
+    input,textarea{
+    width: 100%;
+}
+
+#form {
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.contenido-footer {
+    flex-direction: column; 
+    gap: 8px; 
+    padding: 10px;
+}
+
+.contenido-footer li {
+    font-size: 0.9rem; 
+}
+}
+
+    @media (min-width: 1200px) {
+    .contenedor-presupuestos {
+    width: 50%;
+    margin: 3% auto;
+    }
+
+    .presupuestos {
+    margin: 3% auto;
+    }
+
+}

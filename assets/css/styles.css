@@ -1,274 +1,223 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-
-
 
 /* estilos del inicio */
-
-body{
-    background-color: #D56718;
-    color: #ffffff;
-    font-family: montserrat;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    
+body {
+  background-color: #D56718;
+  color: #ffffff;
+  font-family: montserrat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-main {
-    flex: 1;
+.servicio-item {
+  text-align: center;
+  display: block;
+  margin: 0 auto 1rem auto;
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
-.banner-bloque{
-    display: flex;
-    justify-content: center;
+.banner-bloque {
+  display: flex;
+  justify-content: center;
 }
 
 header img .banner {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.container-fluid{
-    display: flex;
-    justify-content: center;
-
+.container-fluid {
+  display: flex;
+  justify-content: center;
 }
 
-
-/*estilos index */
-
-.carrousel{
-    display: flex;
-    padding: 30px;
-    justify-content: center;
-
+main {
+  flex: 1;
 }
 
-.img-carrousel{
-    border-radius: 10px;
+.carrousel {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
 
+.img-carrousel {
+  border-radius: 10px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .informacion_importante {
-    margin: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.informacion_importante h2{
-    font-size: 40px;
-    text-align: center;
+.informacion_importante h2 {
+  font-size: 40px;
+  text-align: center;
 }
-
 
 .informacion_importante p {
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
-.img_ceo{
-    max-width: 50%;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.img_ceo {
+  max-width: 50%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
-
-/*estilos servicios */
-
-.servicio-item{
-    text-align: center;
-    display: block;
-    margin: 0 auto 1rem auto;
-    padding: 10px;
-    max-width: 100%;
-    height: auto;
-
+.card-img-top {
+  height: 450px;
+  object-fit: cover;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
-
-/*estilos proyectos */
-
-.card-img-top{
-    height: 450px;
-    object-fit: cover;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
-
-.card{
-    height: 100%;
-    overflow: hidden;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+.card {
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .card:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-
-/* estilos de presupuestos  */
-
-.presupuestos{
-    margin: 5%;
+#form {
+  display: flex;
+  justify-content: center;
 }
 
-#titulo-presupuestos{
-    margin: 5px;
-    padding: 5px;
-
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5% px;
 }
 
-.contenedor-presupuestos{
-    display: block;
-    background-color: #ffffff7f;
-    width: 40%;
-    height: auto;
-    border-radius: 20px;
-    margin: 5%;
-    padding: 2%;
+#contact {
+  margin-top: 2%;
+}
+
+.contenedor-form {
+  background-color: rgba(255, 255, 255, 0.4980392157);
+  width: 40%;
+  height: auto;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 20px;
+}
+
+.presupuestos {
+  margin: 5%;
+}
+
+#titulo-presupuestos {
+  margin: 5px;
+  padding: 5px;
+}
+
+.contenedor-presupuestos {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.4980392157);
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+  margin: 5%;
+  padding: 2%;
 }
 
 #pres {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-/*estilos de formulario*/
-
-#form {
-    display: flex;
-    justify-content: center;
-}
-
-.formulario{
-    display: flex;
-    justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 5%px;
-    
-}
-
-#contact{
-    margin-top: 2%;
-}
-
-.contenedor-form{
-    background-color: #ffffff7f;
-    width: 40%;
-    height: auto;
-    padding: 2%;
-    margin: 2%;
-    border-radius: 20px;
-}
-
-
-
-/* estilos del footer */
-
-footer{
-    background-color: #511231;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: auto;
-
-}
-
-
-
-.contenido-footer{
-    text-align: center;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 2%;
-    padding: 5%;
-}
-
-/*Media queries para mobile PROYECTOS Y PRESUPUESTOS */
-
-
-@media (max-width: 768px) {
-    .card:hover {
-        transform: none;
-        box-shadow: none;
-    }
-
-
-.contenedor-presupuestos {
-        width: 90%;
-        margin: 5% auto;
-        padding: 5%;
-    }
-
-    #pres {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .presupuestos h2{
-        font-size: 1.2rem;
-    }
-
-    .presupuestos p {
-        font-size: 1rem;
-    }
-
-    .contenedor-form{
-    width: 90%;
-    margin: 5% auto;
-    padding: 5%;
-}
-
-    .formulario{
-    flex-direction: column;
-    align-items: center;
-}
-
-    input,textarea{
-    width: 100%;
-}
-
-#form {
-    min-height: 120vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; 
+footer {
+  background-color: #511231;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
 }
 
 .contenido-footer {
-    flex-direction: column; 
-    gap: 8px; 
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  padding: 5%;
+}
+
+@media (max-width: 768px) {
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .contenedor-presupuestos {
+    width: 90%;
+    margin: 5% auto;
+    padding: 5%;
+  }
+  #pres {
+    flex-direction: column;
+    align-items: center;
+  }
+  .presupuestos h2 {
+    font-size: 1.2rem;
+  }
+  .presupuestos p {
+    font-size: 1rem;
+  }
+  .contenedor-form {
+    width: 90%;
+    margin: 5% auto;
+    padding: 5%;
+  }
+  .formulario {
+    flex-direction: column;
+    align-items: center;
+  }
+  input, textarea {
+    width: 100%;
+  }
+  #form {
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .contenido-footer {
+    flex-direction: column;
+    gap: 8px;
     padding: 10px;
+  }
+  .contenido-footer li {
+    font-size: 0.9rem;
+  }
 }
-
-.contenido-footer li {
-    font-size: 0.9rem; 
-}
-}
-
-    @media (min-width: 1200px) {
-    .contenedor-presupuestos {
+@media (min-width: 1200px) {
+  .contenedor-presupuestos {
     width: 50%;
     margin: 3% auto;
-    }
-
-    .presupuestos {
+  }
+  .presupuestos {
     margin: 3% auto;
-    }
-
-}
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,16 @@
+
+.card-img-top{
+    height: 450px;
+    object-fit: cover;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card{
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
